@@ -1,0 +1,28 @@
+.links > * {
+    margin-right: 1rem;
+}
+
+.external-link {
+    text-decoration: none;
+  }
+.external-link:hover {
+    text-decoration: underline;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    50% {
+        transform: translate3d(0, 2.5rem, 0);
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+#bounce {
+    animation: bounce 0.5s cubic-bezier(0.5, 0.05, 0.25, 0.5); 
+}
+#bounceoff:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,7 @@
+.AboutPage {
+    margin-top: 15rem;
+}
+.AboutText {
+    -webkit-text-stroke: 5px #1F1F29;
+    paint-order: stroke fill;
+}
