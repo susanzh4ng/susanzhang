@@ -1,5 +1,19 @@
 const projects = [
     {
+        id: 0,
+        recentProjects: true,
+        projectsPage: true,
+        uiuxPage: true,
+        fullStackPage: false,
+        marketingPage: false,
+        url: "pixy",
+        coverImg: require("./pages/Pixy/PixyImages/Pixy-Banner.png"),
+        title: "Pixy",
+        subtitle: "",
+        description: "A reference image lookup app — made for and designed by artists. ",
+        category: "UI/UX",
+    },
+    {
         id: 1,
         recentProjects: true,
         projectsPage: true,

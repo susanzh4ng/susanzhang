@@ -7,6 +7,7 @@ import MarketingPage from './pages/MarketingPage/MarketingPage';
 import ProjectsPage from './pages/ProjectsPage/ProjectsPage';
 import AboutPage from './pages/AboutPage/AboutPage';
 import NavBar from './components/NavBar/NavBar';
+import Pixy from './pages/Pixy/Pixy';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import FooterSZ from './components/FooterSZ/FooterSZ';
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/projects/uiux" element={<UiuxPage />} />
           <Route path="/projects/full-stack" element={<FullstackPage />} />
           <Route path="/projects/marketing" element={<MarketingPage />} />
+          <Route path="/projects/pixy" element={<Pixy />} />
           <Route path="/about" element={<AboutPage />} />
         </Routes>
         <FooterSZ />

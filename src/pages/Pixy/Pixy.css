@@ -1,0 +1,43 @@
+.label {
+    padding: 10px;
+    display: inline-block;
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+    border-radius: 30px;
+    border: 3px solid rgba(255,255,255,0.25);
+    backdrop-filter: blur(10px);
+    color: white;
+    text-transform: uppercase;
+}
+
+.callout-card {
+        background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+        margin: 1.5rem 1.5rem;
+        padding: 1rem;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.8em;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: white;
+}
+
+.designPersona {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+@media screen and (max-width: 800px) {
+    .designPersona {
+      width: 100%;
+      height: auto;
+    }
+}

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom'
 import logoWhite from '../../images/susanzhang-white.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -9,6 +10,7 @@ import { PiEnvelopeFill } from "react-icons/pi";
 import "./FooterSZ.css";
 
 const FooterSZ = () => {
+  const navigate = useNavigate();
   const [bounce, setBounce] = useState(false);
 
   const handleClick =()=>{
@@ -16,6 +18,7 @@ const FooterSZ = () => {
     setTimeout(()=> {
       setBounce(false);
     }, 500);
+    navigate("/");
   }
 
   return (
