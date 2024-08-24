@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import projects from '../../projects'
 import CardSZ from '../../components/CardSZ/CardSZ'
 import "../ProjectsPage/ProjectsPage.css";
+import NavBar from '../../components/NavBar/NavBar';
 
 const FullstackPage = () => {
 
@@ -17,6 +18,8 @@ const FullstackPage = () => {
 })
 
   return (
+    <div>
+      <NavBar />
     <Container>
     <section className="cardsList">
       <h1 className='h1'>Full-stack Projects</h1>
@@ -24,6 +27,7 @@ const FullstackPage = () => {
       {cards}
     </section>
   </Container>
+  </div>
   )
 }
 

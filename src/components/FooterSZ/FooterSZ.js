@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'
-import logoWhite from '../../images/susanzhang-white.png';
+import logoGray from '../../images/susanzhang-gray.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -43,7 +43,7 @@ const FooterSZ = () => {
           </Col>
           <Col md="4" className="text-md-end mb-3">
             <img
-              src={logoWhite}
+              src={logoGray}
               width="30"
               height="30"
               className="d-inline-block align-top"

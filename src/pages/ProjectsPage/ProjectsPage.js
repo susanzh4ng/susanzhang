@@ -2,6 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import projects from '../../projects'
 import CardSZ from '../../components/CardSZ/CardSZ'
+import NavBar from '../../components/NavBar/NavBar';
 import "./ProjectsPage.css";
 
 const ProjectsPage = () => {
@@ -18,6 +19,7 @@ const ProjectsPage = () => {
 
   return (
     <div>
+      <NavBar />
       <Container>
         <section className="cardsList">
           <h1 className='h1'>Projects</h1>

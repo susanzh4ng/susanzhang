@@ -4,10 +4,12 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import "./AboutPage.css";
 import profile from '../../images/profile.png';
+import NavBar from '../../components/NavBar/NavBar';
 
 const AboutPage = () => {
   return (
     <div>
+      <NavBar/>
       <Container className='AboutPage'>
         <Row>
           <Col md={6}>

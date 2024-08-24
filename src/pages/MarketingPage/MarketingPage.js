@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import projects from '../../projects'
 import CardSZ from '../../components/CardSZ/CardSZ'
 import "../ProjectsPage/ProjectsPage.css";
+import NavBar from '../../components/NavBar/NavBar';
 
 const MarketingPage = () => {
   const cards = projects
@@ -16,13 +17,16 @@ const MarketingPage = () => {
   })
 
   return (
-    <Container className='body'>
-    <section className="cardsList">
-      <h1 className='h1'>Marketing Projects</h1>
-      <p><i>Promoting my community.</i> Explore the cards below to learn more.</p>
-      {cards}
-    </section>
-  </Container>
+    <div>
+      <NavBar />
+      <Container>
+        <section className="cardsList">
+          <h1 className='h1'>Marketing Projects</h1>
+          <p><i>Promoting my community.</i> Explore the cards below to learn more.</p>
+          {cards}
+        </section>
+      </Container>
+    </div>
   )
 }
 

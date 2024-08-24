@@ -4,6 +4,8 @@ import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import projects from '../../projects'
 import CardSZ from '../../components/CardSZ/CardSZ'
+import NavBar from '../../components/NavBar/NavBar'
+import FooterSZ from '../../components/FooterSZ/FooterSZ';
 import "./LandingPage.css";
 
 const LandingPage = () => {
@@ -35,6 +37,7 @@ const LandingPage = () => {
 
   return (
     <div className='LandingPage'>
+      <NavBar />
       <Container>
         <div className='intro landing-intro paragraph-div'>
           <h1>Hello there!</h1>
@@ -69,7 +72,9 @@ const LandingPage = () => {
             <Card.Text>Lorem ipsum dolor sit amet</Card.Text>
           </Card.Body>
   </Card> */}
+        
       </Container>
+      {/*<FooterSZ />*/}
     </div>
   )
 }

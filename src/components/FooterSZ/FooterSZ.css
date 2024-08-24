@@ -1,8 +1,13 @@
+footer {
+    margin: 1rem;
+}
+
 .links > * {
     margin-right: 1rem;
 }
 
 .external-link {
+    color: #87878F;
     text-decoration: none;
   }
 .external-link:hover {

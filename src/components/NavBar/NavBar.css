@@ -3,12 +3,20 @@
     border-radius: 30px;
     border: 3px solid rgba(255,255,255,0.4);
     backdrop-filter: blur(10px);
-    margin: 1rem;
+    margin: 1rem;    
+    z-index: 1;
 }
-
-.link {
+.navbar .link {
+    color: #1F1F29;
+    margin: 0 0.5rem;
+  }
+.navbar .link:hover {
     color: #1F1F29;
 }
+#basic-nav-dropdown {
+    color: #1F1F29;
+}
+
 .link:hover {
     font-weight: bold;
 }

@@ -17,22 +17,27 @@ import add from './PixyImages/Add.gif'
 import profile from './PixyImages/profile.gif'
 import designSystem from './PixyImages/Design System.png'
 import pixyBanner from './PixyImages/Pixy-Banner.png';
+import NavBar from '../../components/NavBar/NavBar'
 import "./Pixy.css";
 
 const Pixy = () => {
   return (
     <div className='Pixy'>
-        <Container>
+        <NavBar />
+        <div className='banner'>
+            <img
+                src={pixyBanner}
+                alt="Pixy Banner"
+                className="banner-img"
+                /*width="80%"
+                height="auto"*/
+            />
+        </div>
+        <Container className='Pixy-Container'>
             <div className='intro paragraph-div'>
-                <h1>Pixy</h1>
+                <h1 className='Case-study-h1'>Pixy</h1>
                 <br></br>
-                <img
-                    src={pixyBanner}
-                    alt="Pixy Banner"
-                    /*className="align-self-center"
-                    width="80%"
-                    height="auto"*/
-                />
+
                 <br></br>
                 <p>Pixy is a reference image lookup app — made for and designed by artists. The reference search process is an integral yet bothersome aspect of artists’ workflow. After discussing my frustrations with my peers – especially the concerning influx of AI-generated content – I decided to create a UX case study to alleviate and enhance utilizing references as an artist.</p>
                 <br></br>
@@ -51,7 +56,7 @@ const Pixy = () => {
                     </Col>
                 </Row>
             </div>
-            <strong className='label'>Summary</strong>
+            <strong className='label Pixy-label'>Summary</strong>
             <div className='paragraph-div'>
                 <br></br>
                 <Row>
@@ -97,7 +102,7 @@ const Pixy = () => {
                 <br></br>
                 <br></br>
              </div>
-            <strong className='label'>Segment of Interest & Pain Points</strong>
+            <strong className='label Pixy-label'>Segment of Interest & Pain Points</strong>
             <div className='paragraph-div'>
                 <br></br>
                 <h3><i>Designing for artists, by an artist</i></h3>
@@ -106,15 +111,15 @@ const Pixy = () => {
                 <p>From netnography and user interviews, I found that artists get references from stock photography websites, reference books, their own cameras, and/or live models. I also found out that artists view using references as an integral part of their creative process and frequently utilize multiple references for each artwork.</p>
                 <br></br>
                 <p>Additionally, I dived deeper and discovered these chief issues that my segment of interest faces …</p>
-                <div className='callout-card'>
+                <div className='callout-card Pixy-callout'>
                     <h4>Specificity</h4>
                     <p>Artists often draw with a specific composition in mind but without the visual library to do so. References bridge that gap, yet references are not often tagged with the specific colors, lighting, camera angle, etc. that the artist has in mind.</p>
                 </div>
-                <div className='callout-card'>
+                <div className='callout-card Pixy-callout'>
                     <h4>Lack of diversity</h4>
                     <p>All user interviews stated that references were easier to find the more “common” the intended subject was, and vice versa, but this poses a problem for inclusivity, especially at the concept art phase and in the commercial art sphere.</p>
                 </div>
-                <div className='callout-card'>
+                <div className='callout-card Pixy-callout'>
                     <h4>Unsuitable references</h4>
                     <p>Artists are professionals and would not want to infringe on another artist’s original work  – despite the different mediums. To circumvent this, many artists prefer from working from a pool of royalty free images to begin with. On the other hand, artists foremost want to work with authentic references, making AI-generated images an undesirable option.</p>
                 </div>
@@ -122,7 +127,7 @@ const Pixy = () => {
                 <br></br>
                 <br></br>
             </div>
-            <strong className='label'>Design Persona & UX Mapping</strong>
+            <strong className='label Pixy-label'>Design Persona & UX Mapping</strong>
             <div className='paragraph-div'>
                 <br></br>
                 <p>Thus, this led me to create my primary design persona and subsequent empathy map and future state journey map:</p>
@@ -144,22 +149,22 @@ const Pixy = () => {
                 <br></br>
                 <br></br>
             </div>
-            <strong className='label'>Solutions & Central Functionalities</strong>
+            <strong className='label Pixy-label'>Solutions & Central Functionalities</strong>
             <div className='paragraph-div'>
                 <br></br>
                 <h3><i>Designing for artists, transparently</i></h3>
                 <p>Good design is invisible. Good design also takes advantage of technology in innovative ways.</p>
-                <div className='callout-card'>
+                <div className='callout-card Pixy-callout'>
                     <h4>Natural language search & filter</h4>
                     <p>Utilizing natural language processing (NLP), users can type everyday language into the search bar. Additionally, for longer, more tedious searches, users have the option to filter through the results, with the filter categories made relevant through NLP; NLP filter was not part of my original design, but more on that in the Iteration phase!</p>
                     <p>User interviews and netnography heavily acknowledges how artists are often in need of specific references — references that often require heavy filtering and manual searching, which would be omitted when using natural language. Natural language search, additionally, is already a standard in stock photo web apps and user-generated content apps alike. The user can find their preferred reference in a familiar and reliable method, and this feature <strong>would address specificity and lack of diversity</strong>.</p>
                 </div>
-                <div className='callout-card'>
+                <div className='callout-card Pixy-callout'>
                     <h4>Savable art boards</h4>
                     <p>Users are able to select References and save it to Art Boards of their choosing. There, the References will be grouped together, and the user can revisit and edit the Board.</p>
                     <p>User interviews, netnography, and competitive analysis have heavily stressed how artists use multiple references for a singular, original artwork. The latter two, in particular, suggest using digital art boards, for which the user can easily view through the references they have gathered. Our feature could enhance on a standard art board by allowing the user to focus in on one particular reference via zooming in/out and notes.</p>
                 </div>
-                <div className='callout-card'>
+                <div className='callout-card Pixy-callout'>
                     <h4>Open source content</h4>
                     <p>References uploaded to Pixy should be free and available for users under Creative Commons Zero (CC0) license.</p>
                     <p>User interviews and netnography states that a point of contention around using references is how it can be viewed as “stealing” another artist’s work. In order to circumvent this, all initial content uploaded to Pixy and trained by Pixy’s machine learning algorithm should be royalty free, open-source, and should be screened by an AI-generation detector. Likewise, any additional user-generated content should be warranted under the Creative Commons Zero (CC0) license. These guidelines would further enforce artists as the target demographic for Pixy, as opposed to photographers or marketing associates. This feature <strong>would address unsuitable references</strong>.</p>
@@ -169,7 +174,7 @@ const Pixy = () => {
                 <br></br>
                 <br></br>
             </div>
-            <strong className='label'>Information Hierarchy & Low-Fi Wireframes</strong>
+            <strong className='label Pixy-label'>Information Hierarchy & Low-Fi Wireframes</strong>
             <div className='paragraph-div'>
                 <br></br>
                 <h3><i>Introducing Pixy</i></h3>
@@ -187,25 +192,25 @@ const Pixy = () => {
                 <br></br>
                 <br></br>
             </div>
-            <strong className='label'>User Testing & Iteration</strong>
+            <strong className='label Pixy-label'>User Testing & Iteration</strong>
             <div className='paragraph-div'>
                 <br></br>
                 <h3><i>How could Pixy be improved?</i></h3>
                 <p>After conducting user testing with a fellow freelance illustrator, the largest takeaways were…</p>
-                <div className='callout-card'>
+                <div className='callout-card Pixy-callout'>
                     <p>Needed more <b>search flexibility</b>, that being the ability to search for creators’ pages and boards</p>
                 </div>
-                <div className='callout-card'>
+                <div className='callout-card Pixy-callout'>
                     <p>Requested a <b>mass upload feature</b> to make board uploads easier</p>
                 </div>
-                <div className='callout-card'>
+                <div className='callout-card Pixy-callout'>
                     <p>“The search bar is kind of a <b>hassle for longer descriptions</b>.”</p>
                     <p>This feedback had the least direct solution. As such, I conducted more user research and came across a blog post that encourages <b>filter form fields</b> for lengthy queries – perfect for my design challenge!</p>
                 </div>
                 <br></br>
                 <br></br>
             </div>
-            <strong className='label'>Revision & High-Fi Prototype</strong>
+            <strong className='label Pixy-label'>Revision & High-Fi Prototype</strong>
             <div className='paragraph-div'>
                 <br></br>
                 <Row>
@@ -284,7 +289,7 @@ const Pixy = () => {
                 <br></br>
                 <br></br>
             </div>
-            <strong className='label'>Design System</strong>
+            <strong className='label Pixy-label'>Design System</strong>
             <div className='paragraph-div'>
                 <br></br>
                 <h3><i>The design choices behind Pixy</i></h3>
@@ -297,24 +302,24 @@ const Pixy = () => {
                 <br></br>
                 <br></br>
             </div>
-            <strong className='label'>Reflection</strong>
+            <strong className='label Pixy-label'>Reflection</strong>
             <div className='paragraph-div'>
                 <br></br>
-                <div className='callout-card'>
+                <div className='callout-card Pixy-callout'>
                     <h4>Your needs are not the user's needs</h4>
                     <p>, even when you are included in the segment of interest. There were a few features – filtering results and searching for adjacent results – that I purposefully omitted from my initial conceptualization because I naively thought them to be irrelevant to Pixy’s goal. It was only through user testing and further user research that I realized how – not only helpful bit also – essential those features really were.</p>
                 </div>
-                <div className='callout-card'>
+                <div className='callout-card Pixy-callout'>
                     <h4>Design for change</h4>
                     <p>Features will always be added or even taken away; iteration is a natural part of the design process, even after launch! It is important to design with flexible components in mind so that the feature will fit to the preexisting app.</p>
                 </div>
-                <div className='callout-card'>
+                <div className='callout-card Pixy-callout'>
                     <h4>Begin with limitations</h4>
                     <p>Creating an entire concept from scratch is overwhelming. Moreover, it is impossible for an app to truly be all-encompassing. To begin, one must define a strict segment of interest and pain points to address before they can even start conceptualizing an app!</p>
                 </div>
             </div>
 
-            {/*<strong className='label'>Lorem Ipsum</strong>
+            {/*<strong className='label Pixy-label'>Lorem Ipsum</strong>
             <div className='paragraph-div'>
                 <br></br>
                 <h3><i>Lorem ipsum.</i></h3>
@@ -322,6 +327,18 @@ const Pixy = () => {
                 <br></br>
                 <br></br>
             </div>*/}
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
       </Container>
     </div>
   )
