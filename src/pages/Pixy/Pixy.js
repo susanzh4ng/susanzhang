@@ -18,6 +18,7 @@ import profile from './PixyImages/profile.gif'
 import designSystem from './PixyImages/Design System.png'
 import pixyBanner from './PixyImages/Pixy-Banner.png';
 import NavBar from '../../components/NavBar/NavBar'
+import BackToTop from '../../components/BackToTop/BackToTop';
 import "./Pixy.css";
 
 const Pixy = () => {
@@ -318,6 +319,7 @@ const Pixy = () => {
                     <p>Creating an entire concept from scratch is overwhelming. Moreover, it is impossible for an app to truly be all-encompassing. To begin, one must define a strict segment of interest and pain points to address before they can even start conceptualizing an app!</p>
                 </div>
             </div>
+            <BackToTop />
 
             {/*<strong className='label Pixy-label'>Lorem Ipsum</strong>
             <div className='paragraph-div'>

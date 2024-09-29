@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'
-import logoGray from '../../images/susanzhang-gray.png';
+import logoWhite from '../../images/susanzhang-white.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -30,7 +30,7 @@ const FooterSZ = () => {
                 <Link to="https://www.linkedin.com/in/susan-zh4ng/" className="text-white" target="_blank">
                     <span className="d-inline-flex align-items-center external-link">
                     <PiLinkedinLogoFill size="25" className="me-1" />
-                    Susan Zhang
+                    linkedin.com/in/susan-zh4ng
                     </span>
                 </Link>
                 <Link to="mailto:Susan.Zhang901@gmail.com" className="text-white me-3">
@@ -43,7 +43,7 @@ const FooterSZ = () => {
           </Col>
           <Col md="4" className="text-md-end mb-3">
             <img
-              src={logoGray}
+              src={logoWhite}
               width="30"
               height="30"
               className="d-inline-block align-top"

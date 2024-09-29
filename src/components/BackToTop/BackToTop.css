@@ -1,0 +1,11 @@
+.BackToTop {
+    margin-top: 2rem;
+    color: #1F1F29;
+}
+
+.top-link {
+    text-decoration: none;
+}
+.top-link:hover {
+    text-decoration: underline;
+}

@@ -6,6 +6,7 @@
   padding: 0;
   margin: 0;
 }
-body::-webkit-scrollbar { /* hiding scrollbar */
+/*body::-webkit-scrollbar {hiding scrollbar
   width: 0;
 }
+*/
