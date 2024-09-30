@@ -3,7 +3,7 @@ h1, h2{
     font-size: 3em;
 }
 
-p {
+p, li {
     font-size: 1.15rem;
 }
 

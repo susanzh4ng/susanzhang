@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import projects from '../../projects'
 import CardSZ from '../../components/CardSZ/CardSZ'
 import NavBar from '../../components/NavBar/NavBar'
-import FooterSZ from '../../components/FooterSZ/FooterSZ';
 import "./LandingPage.css";
 
 const LandingPage = () => {
@@ -74,7 +73,6 @@ const LandingPage = () => {
   </Card> */}
         
       </Container>
-      {/*<FooterSZ />*/}
     </div>
   )
 }

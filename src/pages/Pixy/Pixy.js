@@ -122,7 +122,7 @@ const Pixy = () => {
                 </div>
                 <div className='callout-card Pixy-callout'>
                     <h4>Unsuitable references</h4>
-                    <p>Artists are professionals and would not want to infringe on another artist’s original work  – despite the different mediums. To circumvent this, many artists prefer from working from a pool of royalty free images to begin with. On the other hand, artists foremost want to work with authentic references, making AI-generated images an undesirable option.</p>
+                    <p>Artists are professionals and would not want to infringe on another artist's original work  - despite the different mediums. To circumvent this, many artists prefer from working from a pool of royalty free images to begin with. On the other hand, artists foremost want to work with authentic references, making AI-generated images an undesirable option.</p>
                 </div>
                 <p>… all of which leads to a lengthy search process.</p>
                 <br></br>

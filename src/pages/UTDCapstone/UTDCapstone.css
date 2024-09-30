@@ -1,0 +1,18 @@
+.UTDCapstone {
+    background-color: #EFF2F1;
+    color: #000000;
+  }
+.UTDCapstone-banner {
+    position: absolute;
+    top:0;
+    z-index: auto;
+    background-color: #11392A;
+  }
+
+.UTDCapstone-label {
+    background-image: linear-gradient(to bottom right, rgba(68,108,93, 0.8), rgba(68,108,93, 0.5));
+  }
+
+.UTDCapstone-callout {
+    background-image: linear-gradient(to bottom right, rgba(68,108,93, .1), rgba(68,108,93, 0.01));
+}

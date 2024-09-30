@@ -1,0 +1,18 @@
+.UTDesignCapstone {
+    background-color: #FDF1E5;
+    color: #000000;
+  }
+.UTDesignCapstone-banner {
+    position: absolute;
+    top:0;
+    z-index: auto;
+    background-color: #974C00;
+  }
+
+.UTDesignCapstone-label {
+    background-image: linear-gradient(to bottom right, rgba(167, 103, 38, 0.8), rgba(167, 103, 38, 0.5));
+  }
+
+.UTDesignCapstone-callout {
+    background-image: linear-gradient(to bottom right, rgba(167, 103, 38, .1), rgba(167, 103, 38, 0.01));
+}
