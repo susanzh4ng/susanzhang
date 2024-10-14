@@ -1,6 +1,6 @@
 # Susan Zhang's Portfolio
 
-View Susan Zhang's UI/UX, marketing, and full-stack web development work in [her portfolio website]()!
+View Susan Zhang's UI/UX, marketing, and full-stack web development work in [her portfolio website](http://susanzh4ng.github.io/susanzhang/)!
 
 Susan Zhang is a Computer Science and Experience Design student based in Dallas-Fort Worth, TX. Currently, she is a Designer and Corporate Relations Assistant for UTDesign — UT Dallas's engineering and computer science senior capstone program — where she designs print media, graphics, and websites for students and C-suite members alike.
 
