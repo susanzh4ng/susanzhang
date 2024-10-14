@@ -29,7 +29,7 @@ const NavBar = () => {
                 <NavDropdown.Item as={Link} to={"/projects/marketing"} className='link'>MARKETING</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link as={Link} to={"/about"} className='link'>ABOUT</Nav.Link>
-              <Nav.Link href="#link" className='link'>RESUME 🡭</Nav.Link>
+              <Nav.Link href="https://drive.google.com/file/d/1xHqVR1PXtrKrucN5fgmybxLxjNAOnNhw/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='link'>RESUME 🡭</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

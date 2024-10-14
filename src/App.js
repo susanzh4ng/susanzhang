@@ -13,6 +13,8 @@ import UTDCapstone from './pages/UTDCapstone/UTDCapstone';
 import Planne from './pages/Planne/Planne';
 import Wehack from './pages/Wehack/Wehack'
 import CometGala from './pages/CometGala/CometGala';
+import Legalease from './pages/Legalease/Legalease';
+import WriteRight from './pages/WriteRight/WriteRight';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import FooterSZ from './components/FooterSZ/FooterSZ';
 
@@ -33,6 +35,8 @@ function App() {
           <Route path="/projects/planne" element={<Planne />} />
           <Route path="/projects/wehack2024" element={<Wehack />} />
           <Route path="/projects/comet-gala2024" element={<CometGala />} />
+          <Route path="/projects/legalease" element={<Legalease />} />
+          <Route path="/projects/writeright" element={<WriteRight />} />
           <Route path="/about" element={<AboutPage />} />
         </Routes>
         <FooterSZ />
