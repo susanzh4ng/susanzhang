@@ -24,20 +24,20 @@ function App() {
       <BrowserRouter>
       {/*<NavBar /> */}
         <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/projects" element={<ProjectsPage />} />
-          <Route path="/projects/uiux" element={<UiuxPage />} />
-          <Route path="/projects/full-stack" element={<FullstackPage />} />
-          <Route path="/projects/marketing" element={<MarketingPage />} />
-          <Route path="/projects/pixy" element={<Pixy />} />
-          <Route path="/projects/utdesign-capstone" element={<UTDesignCapstone />} />
-          <Route path="/projects/utd-capstone-programs" element={<UTDCapstone />} />
-          <Route path="/projects/planne" element={<Planne />} />
-          <Route path="/projects/wehack2024" element={<Wehack />} />
-          <Route path="/projects/comet-gala2024" element={<CometGala />} />
-          <Route path="/projects/legalease" element={<Legalease />} />
-          <Route path="/projects/writeright" element={<WriteRight />} />
-          <Route path="/about" element={<AboutPage />} />
+          <Route path="/susanzhang/" element={<LandingPage />} />
+          <Route path="/susanzhang/projects" element={<ProjectsPage />} />
+          <Route path="/susanzhang/projects/uiux" element={<UiuxPage />} />
+          <Route path="/susanzhang/projects/full-stack" element={<FullstackPage />} />
+          <Route path="/susanzhang/projects/marketing" element={<MarketingPage />} />
+          <Route path="/susanzhang/projects/pixy" element={<Pixy />} />
+          <Route path="/susanzhang/projects/utdesign-capstone" element={<UTDesignCapstone />} />
+          <Route path="/susanzhang/projects/utd-capstone-programs" element={<UTDCapstone />} />
+          <Route path="/susanzhang/projects/planne" element={<Planne />} />
+          <Route path="/susanzhang/projects/wehack2024" element={<Wehack />} />
+          <Route path="/susanzhang/projects/comet-gala2024" element={<CometGala />} />
+          <Route path="/susanzhang/projects/legalease" element={<Legalease />} />
+          <Route path="/susanzhang/projects/writeright" element={<WriteRight />} />
+          <Route path="/susanzhang/about" element={<AboutPage />} />
         </Routes>
         <FooterSZ />
       </BrowserRouter>

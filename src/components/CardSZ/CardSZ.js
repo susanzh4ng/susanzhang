@@ -7,7 +7,7 @@ import "./CardSZ.css";
 function CardSZ(props){
     const navigate = useNavigate();
     function handleClick() {
-        navigate(`/projects/${props.url}`);
+        navigate(`/susanzhang/projects/${props.url}`);
     }
 
     return(

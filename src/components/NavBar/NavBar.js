@@ -11,7 +11,7 @@ const NavBar = () => {
     return (
         <Navbar expand="lg" className="bg-body-tertiary, NavBar">
         <Container>
-        <Navbar.Brand as={Link} to={"/"}>
+        <Navbar.Brand as={Link} to={"/susanzhang/"}>
             <img
               src={logoBlack}
               width="30"
@@ -24,11 +24,11 @@ const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <NavDropdown title="PROJECTS" id="basic-nav-dropdown" className='link'>
-                <NavDropdown.Item as={Link} to={"/projects/uiux"} className='link'>UI/UX</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to={"/projects/full-stack"} className='link'>FULL-STACK</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to={"/projects/marketing"} className='link'>MARKETING</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to={"/susanzhang/projects/uiux"} className='link'>UI/UX</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to={"/susanzhang/projects/full-stack"} className='link'>FULL-STACK</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to={"/susanzhang/projects/marketing"} className='link'>MARKETING</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link as={Link} to={"/about"} className='link'>ABOUT</Nav.Link>
+              <Nav.Link as={Link} to={"/susanzhang/about"} className='link'>ABOUT</Nav.Link>
               <Nav.Link href="https://drive.google.com/file/d/1xHqVR1PXtrKrucN5fgmybxLxjNAOnNhw/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='link'>RESUME 🡭</Nav.Link>
             </Nav>
           </Navbar.Collapse>

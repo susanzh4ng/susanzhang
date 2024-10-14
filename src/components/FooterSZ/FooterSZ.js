@@ -18,7 +18,7 @@ const FooterSZ = () => {
     setTimeout(()=> {
       setBounce(false);
     }, 500);
-    navigate("/");
+    navigate("/susanzhang/");
   }
 
   return (
