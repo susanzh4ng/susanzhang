@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/susanzhang/static/css/main.441c557f.css",
-    "main.js": "/susanzhang/static/js/main.e05e817f.js",
+    "main.js": "/susanzhang/static/js/main.b47af6f6.js",
     "static/js/787.69b2308e.chunk.js": "/susanzhang/static/js/787.69b2308e.chunk.js",
     "static/media/CometGala-MuralReference.png": "/susanzhang/static/media/CometGala-MuralReference.0d6e80c8dcc87b7dedbf.png",
     "static/media/Frame 4.jpg": "/susanzhang/static/media/Frame 4.c524659b821c18e76fdb.jpg",
@@ -71,11 +71,11 @@
     "static/media/susanzhang-white.png": "/susanzhang/static/media/susanzhang-white.87de653f517cb853934d.png",
     "index.html": "/susanzhang/index.html",
     "main.441c557f.css.map": "/susanzhang/static/css/main.441c557f.css.map",
-    "main.e05e817f.js.map": "/susanzhang/static/js/main.e05e817f.js.map",
+    "main.b47af6f6.js.map": "/susanzhang/static/js/main.b47af6f6.js.map",
     "787.69b2308e.chunk.js.map": "/susanzhang/static/js/787.69b2308e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.441c557f.css",
-    "static/js/main.e05e817f.js"
+    "static/js/main.b47af6f6.js"
   ]
 }
