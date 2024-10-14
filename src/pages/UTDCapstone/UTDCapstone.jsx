@@ -84,7 +84,7 @@ const UTDCapstone = () => {
                 <br></br>
                 <h3><i>Distinguished yet discreet</i></h3>
                 <p>UT Dallas corporate-sponsored capstones have aided their local community and strengthed bonds between academia and corporations for the past decade. Companies greatly benefit from student teams' work, and several students obtain post-graduate positions within their sponsoring company afterwards. However, this powerful tool is not known to many DFW-based companies, especially smaller companies and companies that have recently relocated. Likewise, a company might be aware of one capstone program but not the other that is relevant to their business needs.</p>
-                <p>The UT Dallas’s senior capstone programs' landing page is intended to <strong>raise awareness of their services, distinguish between their programs, and attract company leaders to propose a capstone project</strong>.</p>
+                <p>The UT Dallas's senior capstone programs' landing page is intended to <strong>raise awareness of their services, distinguish between their programs, and attract company leaders to propose a capstone project</strong>.</p>
                 <br></br>
                 <br></br>
             </div>

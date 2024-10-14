@@ -11,6 +11,7 @@ import Pixy from './pages/Pixy/Pixy';
 import UTDesignCapstone from './pages/UTDesignCapstone/UTDesignCapstone';
 import UTDCapstone from './pages/UTDCapstone/UTDCapstone';
 import Planne from './pages/Planne/Planne';
+import Wehack from './pages/Wehack/Wehack'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import FooterSZ from './components/FooterSZ/FooterSZ';
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="/projects/utdesign-capstone" element={<UTDesignCapstone />} />
           <Route path="/projects/utd-capstone-programs" element={<UTDCapstone />} />
           <Route path="/projects/planne" element={<Planne />} />
+          <Route path="/projects/wehack2024" element={<Wehack />} />
           <Route path="/about" element={<AboutPage />} />
         </Routes>
         <FooterSZ />

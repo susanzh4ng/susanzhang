@@ -146,7 +146,7 @@ const Planne = () => {
                 <br></br>
                 <br></br>
             </div>
-            <strong className='label Pixy-label'>Information Hierarchy & Low-Fi Wireframes</strong>
+            <strong className='label Planne-label'>Information Hierarchy & Low-Fi Wireframes</strong>
             <div className='paragraph-div'>
                 <br></br>
                 <h3><i>Introducing Planne</i></h3>
