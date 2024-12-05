@@ -25,7 +25,7 @@ const Pixy = () => {
   return (
     <div className='Pixy'>
         <NavBar />
-        <div className='banner'>
+        <div className='banner'id="pixy">
             <img
                 src={pixyBanner}
                 alt="Pixy Banner"

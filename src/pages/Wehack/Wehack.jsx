@@ -29,7 +29,7 @@ const Wehack = () => {
   return (
     <div className='Wehack'>
         <NavBar />
-        <div className='Wehack-Banner'>
+        <div className='Wehack-Banner' id="wehack">
             <img
                 src={wehackBanner}
                 alt="WEHack Banner"

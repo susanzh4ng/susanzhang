@@ -12,7 +12,7 @@ const WriteRight = () => {
   return (
     <div className='WriteRight'>
         <NavBar />
-        <div className='WriteRight-banner'>
+        <div className='WriteRight-banner' id="writeright">
             <img
                 src={writerightBanner}
                 alt="WriteRight Banner"

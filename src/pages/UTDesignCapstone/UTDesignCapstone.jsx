@@ -18,7 +18,7 @@ const UTDesignCapstone = () => {
   return (
     <div className='UTDesignCapstone'>
         <NavBar />
-        <div className='UTDesignCapstone-banner'>
+        <div className='UTDesignCapstone-banner'id="utdesign">
             <img
                 src={utdesignBanner}
                 alt="UTDesign Capstone Banner"

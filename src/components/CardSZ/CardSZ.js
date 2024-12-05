@@ -8,6 +8,12 @@ function CardSZ(props){
     const navigate = useNavigate();
     function handleClick() {
         navigate(`/susanzhang/projects/${props.url}`);
+        setTimeout(() => {
+            const target = document.getElementById(`${props.urlid}`);
+            if (target) {
+                target.scrollIntoView({ behavior: "smooth" });
+            }
+        }, 0); // Delay to ensure navigation completes
     }
 
     return(

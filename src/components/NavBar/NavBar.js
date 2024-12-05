@@ -24,12 +24,13 @@ const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <NavDropdown title="PROJECTS" id="basic-nav-dropdown" className='link'>
+                <NavDropdown.Item as={Link} to={"/susanzhang/projects"} className='link'>ALL PROJECTS</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to={"/susanzhang/projects/uiux"} className='link'>UI/UX</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to={"/susanzhang/projects/full-stack"} className='link'>FULL-STACK</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to={"/susanzhang/projects/marketing"} className='link'>MARKETING</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link as={Link} to={"/susanzhang/about"} className='link'>ABOUT</Nav.Link>
-              <Nav.Link href="https://drive.google.com/file/d/1xHqVR1PXtrKrucN5fgmybxLxjNAOnNhw/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='link'>RESUME 🡭</Nav.Link>
+              <Nav.Link href="https://docs.google.com/document/d/1JCxSkpRFRojJKhgMhCiSdJLUzwTu3fvaJTfwFdsCL_0/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className='link'>RESUME 🡭</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

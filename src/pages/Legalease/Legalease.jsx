@@ -12,7 +12,7 @@ const Legalease = () => {
   return (
     <div className='Legalease'>
         <NavBar />
-        <div className='Legalease-banner'>
+        <div className='Legalease-banner'id="legalease">
             <img
                 src={legaleaseBanner}
                 alt="Legalease Banner"

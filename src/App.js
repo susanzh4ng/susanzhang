@@ -15,6 +15,7 @@ import Wehack from './pages/Wehack/Wehack'
 import CometGala from './pages/CometGala/CometGala';
 import Legalease from './pages/Legalease/Legalease';
 import WriteRight from './pages/WriteRight/WriteRight';
+import Grow from './pages/Grow/Grow'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import FooterSZ from './components/FooterSZ/FooterSZ';
 
@@ -37,6 +38,7 @@ function App() {
           <Route path="/susanzhang/projects/comet-gala2024" element={<CometGala />} />
           <Route path="/susanzhang/projects/legalease" element={<Legalease />} />
           <Route path="/susanzhang/projects/writeright" element={<WriteRight />} />
+          <Route path="/susanzhang/projects/grow-with-google" element={<Grow />} />
           <Route path="/susanzhang/about" element={<AboutPage />} />
         </Routes>
         <FooterSZ />

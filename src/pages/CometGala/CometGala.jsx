@@ -25,7 +25,7 @@ const CometGala = () => {
   return (
     <div className='CometGala'>
         <NavBar />
-        <div className='CometGala-banner'>
+        <div className='CometGala-banner' id='gala'>
             <img
                 src={cometGalaBanner}
                 alt="Comet Gala Banner"

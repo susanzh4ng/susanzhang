@@ -24,7 +24,7 @@ const Planne = () => {
   return (
     <div className='Planne'>
         <NavBar />
-        <div className='Planne-Banner'>
+        <div className='Planne-Banner'id="planne">
             <img
                 src={planneBanner}
                 alt="Planne Banner"
