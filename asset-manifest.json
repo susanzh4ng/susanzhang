@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/susanzhang/static/css/main.44df7d3f.css",
-    "main.js": "/susanzhang/static/js/main.f10d46d5.js",
+    "main.js": "/susanzhang/static/js/main.cb4d1a22.js",
     "static/js/787.69b2308e.chunk.js": "/susanzhang/static/js/787.69b2308e.chunk.js",
     "static/media/CometGala-MuralReference.png": "/susanzhang/static/media/CometGala-MuralReference.0d6e80c8dcc87b7dedbf.png",
     "static/media/Frame 4.jpg": "/susanzhang/static/media/Frame 4.c524659b821c18e76fdb.jpg",
@@ -34,7 +34,6 @@
     "static/media/ATCM3337-A5-SecondaryPersonaA.png": "/susanzhang/static/media/ATCM3337-A5-SecondaryPersonaA.4ec84e0e76195f5557d0.png",
     "static/media/utdesign-3.png": "/susanzhang/static/media/utdesign-3.19da5a2ceb966a6977d7.png",
     "static/media/EmpathyMap.png": "/susanzhang/static/media/EmpathyMap.fc1c78160239c75a4b1d.png",
-    "static/media/profile.png": "/susanzhang/static/media/profile.bfc5565ff57418965e10.png",
     "static/media/Pixy-Banner.png": "/susanzhang/static/media/Pixy-Banner.2b0ea9f6a9b2a725b901.png",
     "static/media/UTD-Banner.png": "/susanzhang/static/media/UTD-Banner.e0c10bd0905f4d0be0bf.png",
     "static/media/interactions.gif": "/susanzhang/static/media/interactions.6732db967af3c5ff1a54.gif",
@@ -83,6 +82,7 @@
     "static/media/cometgala-5.jpg": "/susanzhang/static/media/cometgala-5.85b9dc8a56308227b359.jpg",
     "static/media/Design System.png": "/susanzhang/static/media/Design System.437f886a3f61079ae012.png",
     "static/media/CategoryIteration.png": "/susanzhang/static/media/CategoryIteration.6e4e5f4ff0a1b307fcaf.png",
+    "static/media/profile.jpg": "/susanzhang/static/media/profile.ef097210fff3ce489e87.jpg",
     "static/media/Home.png": "/susanzhang/static/media/Home.8e557ddf1ee875da6d99.png",
     "static/media/InformationArchitecture.png": "/susanzhang/static/media/InformationArchitecture.bb9e4a2e24a55776a07a.png",
     "static/media/OnboardingQuiz.png": "/susanzhang/static/media/OnboardingQuiz.3942dc8a744b2547733c.png",
@@ -94,11 +94,11 @@
     "static/media/susanzhang-white.png": "/susanzhang/static/media/susanzhang-white.87de653f517cb853934d.png",
     "index.html": "/susanzhang/index.html",
     "main.44df7d3f.css.map": "/susanzhang/static/css/main.44df7d3f.css.map",
-    "main.f10d46d5.js.map": "/susanzhang/static/js/main.f10d46d5.js.map",
+    "main.cb4d1a22.js.map": "/susanzhang/static/js/main.cb4d1a22.js.map",
     "787.69b2308e.chunk.js.map": "/susanzhang/static/js/787.69b2308e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44df7d3f.css",
-    "static/js/main.f10d46d5.js"
+    "static/js/main.cb4d1a22.js"
   ]
 }
