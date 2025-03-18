@@ -41,7 +41,7 @@ const LandingPage = () => {
         <div className='intro landing-intro paragraph-div'>
           <h1>Hello there!</h1>
           <p><strong><i>Susan Zhang</i></strong> is a <strong><i>full-stack developer and UI/UX designer</i></strong> who aims to create modern and user-oriented applications. As a <strong><i>student at the University of Texas at Dallas</i></strong>, she's currently pursuing a degree in Computer Science alongside a certificate in Applied Experience Design and Research.</p>
-          <i>Designer, currently at UTDesign - UT Dallas.</i>
+          <i>UX Designer, currently at ACM - UT Dallas.</i>
         </div>
 
         { cardsShow && <section className="cardsList">
