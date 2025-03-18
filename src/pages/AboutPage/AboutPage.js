@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import "./AboutPage.css";
-import profile from '../../images/profile.png';
+import profile from '../../images/profile.jpg';
 import NavBar from '../../components/NavBar/NavBar';
 
 const AboutPage = () => {
