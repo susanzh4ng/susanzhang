@@ -1,3 +1,12 @@
+.h1default {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.8em;
+    -webkit-text-stroke: 5px #0B0B23;
+    paint-order: stroke fill;
+}
+
 h1, h2{
     font-weight: 900;
     font-size: 3em;
@@ -7,8 +16,15 @@ p, li {
     font-size: 1.15rem;
 }
 
+b {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: 600;
+}
+
 .landing-intro {
-    -webkit-text-stroke: 5px #1F1F29;
+    -webkit-text-stroke: 5px #0B0B23;
     paint-order: stroke fill;
 }
 
@@ -19,15 +35,21 @@ p, li {
 }
 
 .paragraph-div {
-    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
 }
 
 .intro {
-    margin-top: 15rem;
+    margin-top: 12rem;
     padding-bottom: 2rem;
+}
+
+.prevExperience {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
 }
   
 .cardsList {

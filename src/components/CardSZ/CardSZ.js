@@ -7,13 +7,13 @@ import "./CardSZ.css";
 function CardSZ(props){
     const navigate = useNavigate();
     function handleClick() {
-        navigate(`/susanzhang/projects/${props.url}`);
+        navigate(`/susanzhang/work/${props.url}`);
         setTimeout(() => {
             const target = document.getElementById(`${props.urlid}`);
             if (target) {
                 target.scrollIntoView({ behavior: "smooth" });
             }
-        }, 0); // Delay to ensure navigation completes
+        }, 0);
     }
 
     return(
@@ -22,13 +22,12 @@ function CardSZ(props){
                 <Col md={6}>
                     <img src={props.coverImg} alt="Hero" className="img-fluid coverImg"/>
                 </Col>
-                <Col md={6}>
+                <Col md={6} className='text'>
                     <span className="d-inline-flex align-items-center">
                         <PiDiamondsFourFill size="35" className="me-1" />
-                        <p className="title"><i>{props.title}</i> {props.subtitle}</p>
+                        <b>{props.title}</b>
                     </span>
                     <p className="description">{props.description}</p>
-                    <i className="category">{props.category}</i>
                 </Col>
             </Row>
         </div>
