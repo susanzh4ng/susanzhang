@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     gap: 24px;
-    margin-bottom: 40px;
+    margin-top: 40px;
 }
 .Card:hover {
     cursor: pointer;
@@ -11,11 +11,13 @@
 .text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
     gap: 16px;
 }
 
 .coverImg {
-    height: 100%;
+    width: 100%;
+    height: auto;
     object-fit: cover;
 }
