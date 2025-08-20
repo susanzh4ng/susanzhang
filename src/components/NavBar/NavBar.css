@@ -1,7 +1,7 @@
 .NavBar {
     border-radius: 100px;
     border: 3px solid rgba(255, 255, 255, 0.80);
-    background: linear-gradient(151deg, rgba(255, 255, 255, 0.40) 10.12%, rgba(255, 255, 255, 0.10) 82.26%);
+    background: linear-gradient(151deg, rgba(255, 255, 255, 0.10) 17.33%, rgba(255, 255, 255, 0.40) 82.26%);
     backdrop-filter: blur(15px);
     margin: 1rem;    
     z-index: 1;

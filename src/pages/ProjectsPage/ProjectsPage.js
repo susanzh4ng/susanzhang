@@ -22,7 +22,7 @@ const ProjectsPage = () => {
       <NavBar />
       <Container>
         <section className="cardsList">
-          <h1 className='h1margintop'>Work</h1>
+          <h1 className='h1margintop h1default'>⋆.˚✮All work✮˚.⋆</h1>
           <p>Explore the cards below to learn about my work.</p>
           {cards}
         </section>

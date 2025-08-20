@@ -27,7 +27,7 @@ const Legalease = () => {
                 <p>Legalease is the Chrome extension that lets you enter in a legal term and uses web scraping to return its definition from the United States Courts' Glossary of Legal Terms. Combat any misunderstandings or misinformation with this handy extension!</p>
                 <p>As the fullstack developer, I designed the wireframes, coded the user interface, and developed and integrated a REST API with HTTP requests.</p>
                 <br></br>
-                <Row>
+                <Row className='rowfill'>
                     <Col md={4}>
                         <strong>Team</strong>
                         <p>Individual</p>

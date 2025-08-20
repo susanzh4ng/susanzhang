@@ -23,11 +23,10 @@ const WriteRight = () => {
             <div className='intro paragraph-div'>
                 <h1 className='Case-study-h1'>WriteRight</h1>
                 <br></br>
-                <br></br>
                 <p>WriteRight is a one-stop shop for creative writers at any stage of the writing process. Through the web app, creative writers get access to interactive planning pages, a grammar checker, and stylistic writing tips so they can write beautiful stories that they are proud of!</p>
                 <p>As the frontend developer, I designed the wireframes, took the lead on CSS, and coded the user interface in React.</p>
                 <br></br>
-                <Row>
+                <Row className='rowfill'>
                     <Col md={4}>
                         <strong>Team</strong>
                         <p>3 Web Developers, 1 Project Manager</p>

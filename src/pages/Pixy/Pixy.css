@@ -50,8 +50,9 @@
 .callout-card {
         border-radius: 10px;
         backdrop-filter: blur(10px);
-        margin: 1.5rem 1.5rem;
+        margin: 0rem 1.5rem;
         padding: 1rem;
+        width: calc(100% - 3rem);
 }
 
 h3 {

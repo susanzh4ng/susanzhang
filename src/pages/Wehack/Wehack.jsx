@@ -44,7 +44,7 @@ const Wehack = () => {
                 <p>Women in Engineering Hackathon (WEHack) is the University of Texas at Dallas's women and nonbinary uniting 24-hour hackathon; a hackathon is a social coding event and competition that brings together computer programmers in a collaborative environment. It is the largest gender-inclusive hackathon in the DFW metroplex. For the 2024 iteration, the theme was “Enchanted to be Here”.</p>
                 <p>As a design organizer, I was tasked with creating our social media campaign, web assets, sponsorship packet design, and merchandise designs used and distributed at the hackathon, including the hack portal website, t-shirt, and tote bag to name a few. </p>
                 <br></br>
-                <Row>
+                <Row className='rowfill'>
                     <Col md={6}>
                         <strong>Role</strong>
                         <p>Design Organizer</p>

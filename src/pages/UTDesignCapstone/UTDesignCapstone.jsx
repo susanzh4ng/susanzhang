@@ -34,7 +34,7 @@ const UTDesignCapstone = () => {
                 <p>UTDesign is the engineering and computer science capstone program for the University of Texas at Dallas. It is one of the top undergraduate capstone programs in the country, with 20 national accolades, in counting.</p>
                 <p>As the sole web designer on the project, I was tasked to redesign their websites to improve the user experience and visual design of several pages. I also facilitated communication between the UTDesign corporate relations team - the product owner - and the UT Dallas web services team - the product developer. </p>
                 <br></br>
-                <Row>
+                <Row className='rowfill'>
                     <Col md={6}>
                         <strong>Company</strong>
                         <p>UTDesign, UT Dallas</p>
@@ -45,7 +45,7 @@ const UTDesignCapstone = () => {
                         <p><a href='https://utdesignstudents.utdallas.edu/' target="_blank" rel="noopener noreferrer">utdesignstudents.utdallas.edu</a></p>
                     </Col>
                 </Row>
-                <Row>
+                <Row className='rowfill'>
                     <Col md={4}>
                         <strong>Team</strong>
                         <p>5 Corporate Relations Associates, 7 Web Developers</p>

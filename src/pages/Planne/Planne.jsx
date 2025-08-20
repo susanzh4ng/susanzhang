@@ -41,7 +41,7 @@ const Planne = () => {
                 <p>Students - especially in the higher education sphere - are increasingly struggling against procrastination impeding on both their social and academic lives. Tasked with designing an application that helps college students combat just that, my team and I envisioned Planne: the mobile and web application that allows you to plan the steps towards success, one day at a time!</p>
                 <p>As the Overall Designer, I directed the completion of Planne, conducted user research, and created and implemented the visual design system.</p>
                 <br></br>
-                <Row>
+                <Row className='rowfill'>
                     <Col md={4}>
                         <strong>Team</strong>
                         <p>4 UX Designers, 1 Marketing Associate</p>
@@ -259,7 +259,7 @@ const Planne = () => {
                 <br></br>
                 <div className='callout-card Planne-callout'>
                     <h4>Every user is unique</h4>
-                    <p>, even when you are included in the segment of interest. There were a few features - filtering results and searching for adjacent results - that I purposefully omitted from my initial conceptualization because I naively thought them to be irrelevant to Pixy's goal. It was only through user testing and further user research that I realized how – not only helpful bit also – essential those features really were.</p>
+                    <p>even when they all face the same pain points. It is especially essential to create a versatile and customizable app so that your user can personalize the application and fit it to their own needs. One user's happy path is not always another user's happy path!</p>
                 </div>
                 <div className='callout-card Planne-callout'>
                     <h4>A leader has to grow, too</h4>

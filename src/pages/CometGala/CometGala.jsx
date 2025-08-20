@@ -40,7 +40,7 @@ const CometGala = () => {
                 <p>AIGA UTD is the University of Texas at Dallas's chapter for the American Institute of Graphic Arts; it is a student group for design and the arts. AIGA UTD's largest event of the school year is Comet Gala, a collaborative event with various campus organizations that brings together the student body for a night of performances, art vendors, food, drinks, and interactive activities. For the 2024 iteration, the theme was “A Night Among the Stars”.</p>
                 <p>As the design lead, I was tasked with creating our social media campaign used to promote our gala and boost attendance among the UT Dallas student body.</p>
                 <br></br>
-                <Row>
+                <Row className='rowfill'>
                     <Col md={6}>
                         <strong>Role</strong>
                         <p>Design Lead</p>

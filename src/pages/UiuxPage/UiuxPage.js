@@ -23,7 +23,7 @@ const UiuxPage = () => {
       <NavBar />
       <Container>
         <section className="cardsList">
-          <h1 className='h1'>UI/UX Projects</h1>
+          <h1 className='h1margintop h1default'>⋆.˚✮UI/UX work✮˚.⋆</h1>
           <p><i>Designing for the future.</i> Explore the cards below to learn more.</p>
           {cards}
         </section>

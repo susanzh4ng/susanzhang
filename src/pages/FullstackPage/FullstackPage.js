@@ -22,8 +22,8 @@ const FullstackPage = () => {
       <NavBar />
     <Container>
     <section className="cardsList">
-      <h1 className='h1'>Full-stack Projects</h1>
-      <p><i>Coding for care.</i> Explore the cards below to learn more.</p>
+      <h1 className='h1margintop h1default'>⋆.˚✮Full-stack work✮˚.⋆</h1>
+      <p><i>Coding with care.</i> Explore the cards below to learn more.</p>
       {cards}
     </section>
   </Container>

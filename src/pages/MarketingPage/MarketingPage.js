@@ -21,7 +21,7 @@ const MarketingPage = () => {
       <NavBar />
       <Container>
         <section className="cardsList">
-          <h1 className='h1'>Marketing Projects</h1>
+          <h1 className='h1margintop h1default'>⋆.˚✮Marketing work✮˚.⋆</h1>
           <p><i>Promoting my community.</i> Explore the cards below to learn more.</p>
           {cards}
         </section>

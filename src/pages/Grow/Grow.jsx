@@ -54,7 +54,7 @@ const Grow = () => {
                 <p>Company layoffs, increasing concerns over the job market, and the fluctuating value of a college degree all point to one thing: a career - especially career discovery - is scary. Tasked with a semester-long Interaction Design class project and fueled by the horror stories of being a computer science major amidst the era of tech layoffs, Grow with Google was born!</p>
                 <p>Grow is a fictional Google product that allows users to discover and find resources for new career paths. Users can discover employer events, partake in AR & VR discovery activities, and earn highly-sought after credentials! Grow is an addendum to <a href='https://grow.google/' target="_blank" rel="noopener noreferrer">Google's current effort to nurture careers</a> and aims to provide equal career opportunities while taking advantage of the increasingly technological world.</p>
                 <br></br>
-                <Row>
+                <Row className='rowfill'>
                     <Col md={3}>
                         <strong>Team</strong>
                         <p>Individual</p>

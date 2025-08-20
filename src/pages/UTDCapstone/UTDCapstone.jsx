@@ -23,14 +23,14 @@ const UTDCapstone = () => {
         </div>
         <Container className='Pixy-Container'>
             <div className='intro paragraph-div'>
-                <h1 className='Case-study-h1'>UT Dallas Capstone Programs</h1>
+                <h1 className='Case-study-h1'>UT Dallas Senior Capstone Programs</h1>
                 <br></br>
 
                 <br></br>
                 <p>UT Dallas is a rising public research university located just outside of Dallas, Texas. UT Dallas offers more than 140 academic programs, across its 8 schools - 3 of which offer corporate-sponsored undergraduate capstone programs. The Erik Jonsson School of Engineering & Computer Science provides the UTDesign® Capstone program, the Jonsson School and the School of Natural Sciences & Mathematics jointly offer the UTDiscovery capstone program, and Naveen Jindal School of Management offer the UTDsolv capstone program.</p>
                 <p>As the sole web designer on the project, I was tasked to design a landing page unifying and co-marketing the 3 UT Dallas corporate-sponsored capstones. I also facilitated communication within the UTD senior capstone programs' marketing team - the product owner - and between the UT Dallas web services team - the product developer. </p>
                 <br></br>
-                <Row>
+                <Row className='rowfill'>
                     <Col md={6}>
                         <strong>Company</strong>
                         <p>UT Dallas</p>
@@ -40,7 +40,7 @@ const UTDCapstone = () => {
                         <p><a href='https://capstone.utdallas.edu/' target="_blank" rel="noopener noreferrer">capstone.utdallas.edu</a></p>
                     </Col>
                 </Row>
-                <Row>
+                <Row className='rowfill'>
                     <Col md={4}>
                         <strong>Team</strong>
                         <p>7 Marketing Associates, 7 Web Developers</p>

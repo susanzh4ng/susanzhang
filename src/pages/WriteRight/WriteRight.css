@@ -1,5 +1,5 @@
 .WriteRight {
-    background-color: #FAFAFA;
+    background-color: #FFFDFD;
     color: #000000;
   }
 .WriteRight-banner {
@@ -12,3 +12,7 @@
 .WriteRight-label {
     background-image: linear-gradient(to bottom right, rgba(39, 54,96, 0.8), rgba(39, 54,96, 0.5));
   }
+
+.rowfill {
+  width: 100%;
+}
