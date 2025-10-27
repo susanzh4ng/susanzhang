@@ -26,7 +26,7 @@ const NavBar = () => {
               <NavDropdown title="WORK" id="basic-nav-dropdown" className='link'>
                 <NavDropdown.Item as={Link} to={"/susanzhang/work"} className='link'>ALL WORK</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to={"/susanzhang/work/uiux"} className='link'>UI/UX</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to={"/susanzhang/work/full-stack"} className='link'>FULL-STACK</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to={"/susanzhang/work/technology"} className='link'>TECHNOLOGY</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to={"/susanzhang/work/marketing"} className='link'>MARKETING</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link as={Link} to={"/susanzhang/about"} className='link'>ABOUT</Nav.Link>

@@ -141,15 +141,23 @@ const Grow = () => {
                     />
                </div>
                 <br></br>
+                <div className="d-flex justify-content-center">
                 <img
                     src={journeyMap1}
                     alt="Part 1 of Grow's primary journey map"
+                    width="90%"
+                    height="auto"
                 />
+                </div>
                 <br></br>
+                <div className="d-flex justify-content-center">
                 <img
                     src={journeyMap2}
                     alt="Part 2 of Grow's primary journey map"
+                    width="90%"
+                    height="auto"
                 />
+                </div>
                 <br></br>
                 <br></br>
             </div>
@@ -239,10 +247,14 @@ const Grow = () => {
                </div>
                 <br></br>
                 <br></br>
+                <div className="d-flex justify-content-center">
                 <img
                     src={lowfisketch}
                     alt="Grow's low-fidelity sketches"
+                    width="90%"
+                    height="auto"
                 />
+                </div>
                 <br></br>
                 <br></br>
             </div>
@@ -251,10 +263,14 @@ const Grow = () => {
                 <br></br>
                 <h3><i>Further app refinement …</i></h3>
                 <p>Taking the low-fidelity wireframes, I then digitally rebuilt them. I iterated as I saw fit, especially when I realized my sketches would not align with Google's style guidelines.</p>
+                <div className="d-flex justify-content-center">
                 <img
                     src={lowfi}
                     alt="Grow's refined low-fidelity sketches"
+                    width="90%"
+                    height="auto"
                 />
+                </div>
                 <br></br>
                 <br></br>
             </div>
@@ -263,17 +279,24 @@ const Grow = () => {
                 <br></br>
                 <h3><i>… And even further app refinement</i></h3>
                 <p>It was at this stage of the Interaction Design Process that I determined my Visual Design System, heavily based off of the current <a href='https://grow.google/' target="_blank" rel="noopener noreferrer">grow.google website</a> and my observations from Google's Material UI Design Kit. For the logo, I created a vector watering can to symbolize how this app allows you to grow in your career.</p>
-                <img
-                    src={designSystem}
-                    alt="Grow's Visual Design System"
-                    className='designPersona'
-                />
+                <div className='d-flex align-items-center justify-content-center'>
+                    <img
+                        src={designSystem}
+                        alt="Grow's Visual Design System"
+                        width="80%"
+                        height="auto"
+                    />
+                </div>
                 <br></br>
                 <p>From that, I began implementing Google's Material UI Design Kit and style guidelines into my wireframes.</p>
+                <div className="d-flex justify-content-center">
                 <img
                     src={proofofconcept}
                     alt="Grow's first iteration of high-fidelity wireframes"
+                    width="80%"
+                    height="auto"
                 />
+                </div>
                 <br></br>
                 <br></br>
             </div>

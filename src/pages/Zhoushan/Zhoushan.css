@@ -1,0 +1,17 @@
+.Zhoushan {
+    background-color: #FFFDFA;
+    color: #2B201E;
+  }
+.Zhoushan-Banner {
+    position: absolute;
+    top:0;
+    z-index: auto;
+    background-color: #781416;
+  }
+
+.Zhoushan-label {
+    background-image: linear-gradient(to bottom right, rgba(120,20,22, 0.8), rgba(240,40,45, 0.5));
+  }
+.Zhoushan-callout {
+    background-image: linear-gradient(to bottom right, rgba(255,247,231, .9), rgba(255,247,231, 0.5));
+}

@@ -1,13 +1,17 @@
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { PiStorefrontFill, PiPenNibFill, PiBracketsCurlyFill } from "react-icons/pi";
+import { PiStorefrontFill, PiPenNibFill, PiCircuitry } from "react-icons/pi";
 import { useNavigate } from 'react-router-dom'
 import "./CardSZ.css";
 
 function CardSZ(props){
     const navigate = useNavigate();
     function handleClick() {
-        navigate(`/susanzhang/work/${props.url}`);
+            if (props.url.startsWith("http")) {
+                window.open(props.url, "_blank", "noopener,noreferrer");
+            } else {
+                navigate(`/susanzhang/work/${props.url}`);
+            }
         setTimeout(() => {
             const target = document.getElementById(`${props.urlid}`);
             if (target) {
@@ -26,7 +30,7 @@ function CardSZ(props){
                     <span className="d-inline-flex align-items-center">
                         {props.marketingPage && <PiStorefrontFill size="25" className="me-1" />}
                         {props.uiuxPage && <PiPenNibFill size="25" className="me-1" />}
-                        {props.fullStackPage && <PiBracketsCurlyFill size="25" className="me-1" />}
+                        {props.fullStackPage && <PiCircuitry size="25" className="me-1" />}
                         <b>{props.title}</b>
                     </span>
                     <p className="description">{props.description}</p>

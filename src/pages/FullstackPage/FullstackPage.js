@@ -13,17 +13,17 @@ const FullstackPage = () => {
     return (<CardSZ
       key={card.id}
       {...card}
-      />
-    )
-})
+          />
+        )
+    })
 
   return (
     <div>
       <NavBar />
     <Container>
     <section className="cardsList">
-      <h1 className='h1margintop h1default'>⋆.˚✮Full-stack work✮˚.⋆</h1>
-      <p><i>Coding with care.</i> Explore the cards below to learn more.</p>
+      <h1 className='h1margintop h1default'>⋆.˚✮Technology work✮˚.⋆</h1>
+      <p><i>Coding and experimenting with digital mediums.</i> Explore the cards below to learn more.</p>
       {cards}
     </section>
   </Container>

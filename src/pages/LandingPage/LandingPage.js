@@ -72,33 +72,9 @@ const LandingPage = () => {
         </div>
 
         { cardsShow && <section className="cardsList">
-          <h2 className='h1margintop h1default'>⋆｡‧˚Recent work˚‧｡⋆</h2>
+          <h2 className='h1margintop h1default'>⋆｡‧˚Selected works˚‧｡⋆</h2>
           {cards}
         </section>}
-        {/*<h1>LandingPage</h1>
-        <Breadcrumb>
-          <Breadcrumb.Item>heyy</Breadcrumb.Item>
-          <Breadcrumb.Item>heyy2</Breadcrumb.Item>
-          <Breadcrumb.Item active>heyy3</Breadcrumb.Item>
-        </Breadcrumb>
-        <Button>Heyyy</Button>
-        <Alert variant='primary'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend, purus nec egestas commodo, neque risus condimentum ligula, a rhoncus urna turpis a tortor. Sed placerat malesuada ligula, quis blandit leo. Aenean commodo bibendum odio, ac pretium ligula pharetra quis. Integer imperdiet eros lacus, quis luctus leo convallis non. Suspendisse condimentum hendrerit faucibus. Praesent in velit eu felis vestibulum faucibus. Phasellus risus neque, posuere id pharetra nec, mattis eget lorem.</Alert>
-        <Alert variant='primary'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend, purus nec egestas commodo, neque risus condimentum ligula, a rhoncus urna turpis a tortor. Sed placerat malesuada ligula, quis blandit leo. Aenean commodo bibendum odio, ac pretium ligula pharetra quis. Integer imperdiet eros lacus, quis luctus leo convallis non. Suspendisse condimentum hendrerit faucibus. Praesent in velit eu felis vestibulum faucibus. Phasellus risus neque, posuere id pharetra nec, mattis eget lorem.</Alert>
-        <Alert variant='primary'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend, purus nec egestas commodo, neque risus condimentum ligula, a rhoncus urna turpis a tortor. Sed placerat malesuada ligula, quis blandit leo. Aenean commodo bibendum odio, ac pretium ligula pharetra quis. Integer imperdiet eros lacus, quis luctus leo convallis non. Suspendisse condimentum hendrerit faucibus. Praesent in velit eu felis vestibulum faucibus. Phasellus risus neque, posuere id pharetra nec, mattis eget lorem.</Alert>
-        <Alert variant='primary'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend, purus nec egestas commodo, neque risus condimentum ligula, a rhoncus urna turpis a tortor. Sed placerat malesuada ligula, quis blandit leo. Aenean commodo bibendum odio, ac pretium ligula pharetra quis. Integer imperdiet eros lacus, quis luctus leo convallis non. Suspendisse condimentum hendrerit faucibus. Praesent in velit eu felis vestibulum faucibus. Phasellus risus neque, posuere id pharetra nec, mattis eget lorem.</Alert>
-        <Alert variant='primary'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend, purus nec egestas commodo, neque risus condimentum ligula, a rhoncus urna turpis a tortor. Sed placerat malesuada ligula, quis blandit leo. Aenean commodo bibendum odio, ac pretium ligula pharetra quis. Integer imperdiet eros lacus, quis luctus leo convallis non. Suspendisse condimentum hendrerit faucibus. Praesent in velit eu felis vestibulum faucibus. Phasellus risus neque, posuere id pharetra nec, mattis eget lorem.</Alert>
-        <Alert variant='primary'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend, purus nec egestas commodo, neque risus condimentum ligula, a rhoncus urna turpis a tortor. Sed placerat malesuada ligula, quis blandit leo. Aenean commodo bibendum odio, ac pretium ligula pharetra quis. Integer imperdiet eros lacus, quis luctus leo convallis non. Suspendisse condimentum hendrerit faucibus. Praesent in velit eu felis vestibulum faucibus. Phasellus risus neque, posuere id pharetra nec, mattis eget lorem.</Alert>
-        <Alert variant='primary'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend, purus nec egestas commodo, neque risus condimentum ligula, a rhoncus urna turpis a tortor. Sed placerat malesuada ligula, quis blandit leo. Aenean commodo bibendum odio, ac pretium ligula pharetra quis. Integer imperdiet eros lacus, quis luctus leo convallis non. Suspendisse condimentum hendrerit faucibus. Praesent in velit eu felis vestibulum faucibus. Phasellus risus neque, posuere id pharetra nec, mattis eget lorem.</Alert>
-        <Alert variant='primary'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend, purus nec egestas commodo, neque risus condimentum ligula, a rhoncus urna turpis a tortor. Sed placerat malesuada ligula, quis blandit leo. Aenean commodo bibendum odio, ac pretium ligula pharetra quis. Integer imperdiet eros lacus, quis luctus leo convallis non. Suspendisse condimentum hendrerit faucibus. Praesent in velit eu felis vestibulum faucibus. Phasellus risus neque, posuere id pharetra nec, mattis eget lorem.</Alert>
-        <Alert variant='primary'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend, purus nec egestas commodo, neque risus condimentum ligula, a rhoncus urna turpis a tortor. Sed placerat malesuada ligula, quis blandit leo. Aenean commodo bibendum odio, ac pretium ligula pharetra quis. Integer imperdiet eros lacus, quis luctus leo convallis non. Suspendisse condimentum hendrerit faucibus. Praesent in velit eu felis vestibulum faucibus. Phasellus risus neque, posuere id pharetra nec, mattis eget lorem.</Alert>
-        <Card>
-          <Card.Img />
-          <Card.Body>
-            <Card.Title>Example</Card.Title>
-            <Card.Text>Lorem ipsum dolor sit amet</Card.Text>
-          </Card.Body>
-  </Card> */}
-        
       </Container>
     </div>
   )

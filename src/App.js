@@ -15,6 +15,7 @@ import Wehack from './pages/Wehack/Wehack'
 import CometGala from './pages/CometGala/CometGala';
 import Legalease from './pages/Legalease/Legalease';
 import WriteRight from './pages/WriteRight/WriteRight';
+import Zhoushan from './pages/Zhoushan/Zhoushan'
 import Grow from './pages/Grow/Grow'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import FooterSZ from './components/FooterSZ/FooterSZ';
@@ -28,7 +29,7 @@ function App() {
           <Route path="/susanzhang/" element={<LandingPage />} />
           <Route path="/susanzhang/work" element={<ProjectsPage />} />
           <Route path="/susanzhang/work/uiux" element={<UiuxPage />} />
-          <Route path="/susanzhang/work/full-stack" element={<FullstackPage />} />
+          <Route path="/susanzhang/work/technology" element={<FullstackPage />} />
           <Route path="/susanzhang/work/marketing" element={<MarketingPage />} />
           <Route path="/susanzhang/work/pixy" element={<Pixy />} />
           <Route path="/susanzhang/work/utdesign-capstone" element={<UTDesignCapstone />} />
@@ -39,6 +40,7 @@ function App() {
           <Route path="/susanzhang/work/legalease" element={<Legalease />} />
           <Route path="/susanzhang/work/writeright" element={<WriteRight />} />
           <Route path="/susanzhang/work/grow-with-google" element={<Grow />} />
+          <Route path="/susanzhang/work/zhoushan2024" element={<Zhoushan />} />
           <Route path="/susanzhang/about" element={<AboutPage />} />
         </Routes>
         <FooterSZ />
