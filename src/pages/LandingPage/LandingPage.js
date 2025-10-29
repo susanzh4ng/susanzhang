@@ -6,6 +6,7 @@ import projects from '../../projects'
 import CardSZ from '../../components/CardSZ/CardSZ'
 import NavBar from '../../components/NavBar/NavBar'
 import "./LandingPage.css";
+import CTAButton from '../../components/CTAButton/CTAButton';
 
 const LandingPage = () => {
   const [cardsShow, setCardsShow] = useState(false);
@@ -74,7 +75,11 @@ const LandingPage = () => {
         { cardsShow && <section className="cardsList">
           <h2 className='h1margintop h1default'>⋆｡‧˚Selected works˚‧｡⋆</h2>
           {cards}
+          <div className="d-flex justify-content-center">
+            <CTAButton text="Click here to view more of my work" url="" />
+          </div>
         </section>}
+        
       </Container>
     </div>
   )

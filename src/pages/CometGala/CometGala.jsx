@@ -20,6 +20,7 @@ import cometgala9 from './CometGalaImages/cometgala-9.jpg'
 import NavBar from '../../components/NavBar/NavBar'
 import BackToTop from '../../components/BackToTop/BackToTop';
 import "./CometGala.css";
+import CTAButton from '../../components/CTAButton/CTAButton';
 
 const CometGala = () => {
   return (
@@ -204,6 +205,9 @@ const CometGala = () => {
                 </Row>
                 <br></br>
                 <br></br>
+            </div>
+            <div className="d-flex justify-content-center">
+                <CTAButton text="Click here to view more of my marketing work" url="marketing" />
             </div>
             <BackToTop />
             <br></br>

@@ -13,6 +13,7 @@ import utdesignBanner from './UTDesignCapstoneImages/UTDesignCapstone-Banner.png
 import NavBar from '../../components/NavBar/NavBar'
 import BackToTop from '../../components/BackToTop/BackToTop';
 import "./UTDesignCapstone.css";
+import CTAButton from '../../components/CTAButton/CTAButton';
 
 const UTDesignCapstone = () => {
   return (
@@ -238,6 +239,9 @@ const UTDesignCapstone = () => {
                     <h4>A corporate workflow</h4>
                     <p>Though my position was much more relaxed that a traditional corporate role, I was still able to experience what it was like to work in an actual corporate environment: namely, juggling multiple projects at once. I was constantly in a cycle of designing, asking immediate peers for approval, scheduling and meeting with external parties to gain their approval, and iterating my ideas based on their feedback - for several projects. That entire time, I had to judge and balance the most important tasks at hand not only based on my workload, but for my coworkers' too.</p>
                 </div>
+            </div>
+            <div className="d-flex justify-content-center">
+                <CTAButton text="Click here to view more of my work" url="" />
             </div>
             <BackToTop />
             <br></br>

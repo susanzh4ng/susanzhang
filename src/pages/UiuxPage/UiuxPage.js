@@ -4,6 +4,7 @@ import projects from '../../projects'
 import CardSZ from '../../components/CardSZ/CardSZ'
 import NavBar from '../../components/NavBar/NavBar';
 import "../ProjectsPage/ProjectsPage.css";
+import CTAButton from '../../components/CTAButton/CTAButton';
 
 const UiuxPage = () => {
 
@@ -27,6 +28,9 @@ const UiuxPage = () => {
           <p><i>Designing for the future.</i> Explore the cards below to learn more.</p>
           {cards}
         </section>
+        <div className="d-flex justify-content-center">
+          <CTAButton text="Click here to view more of my work" url="" />
+        </div>
       </Container>
     </div>
 

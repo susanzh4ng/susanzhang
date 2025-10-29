@@ -4,6 +4,7 @@ import projects from '../../projects'
 import CardSZ from '../../components/CardSZ/CardSZ'
 import "../ProjectsPage/ProjectsPage.css";
 import NavBar from '../../components/NavBar/NavBar';
+import CTAButton from '../../components/CTAButton/CTAButton';
 
 const FullstackPage = () => {
 
@@ -23,9 +24,12 @@ const FullstackPage = () => {
     <Container>
     <section className="cardsList">
       <h1 className='h1margintop h1default'>⋆.˚✮Technology work✮˚.⋆</h1>
-      <p><i>Coding and experimenting with digital mediums.</i> Explore the cards below to learn more.</p>
+      <p><i>Coding and experimenting with digital mediums.</i>{/* Explore the cards below to learn more.*/}</p>
       {cards}
     </section>
+    <div className="d-flex justify-content-center">
+      <CTAButton text="Click here to view my work" url="" />
+    </div>
   </Container>
   </div>
   )

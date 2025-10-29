@@ -29,6 +29,7 @@ import twenty from './ZhoushanImages/20.png';
 import twentyone from './ZhoushanImages/21.png';
 import twentytwo from './ZhoushanImages/22.png';
 import twentythree from './ZhoushanImages/23.png';
+import CTAButton from '../../components/CTAButton/CTAButton';
 import "./Zhoushan.css";
 
 const Zhoushan = () => {
@@ -398,8 +399,11 @@ const Zhoushan = () => {
                 </div>
             </div>
 
-
+            <div className="d-flex justify-content-center">
+                <CTAButton text="Click here to view more of my marketing work" url="marketing" />
+            </div>
             <BackToTop />
+            
             <br></br>
             <br></br>
             <br></br>

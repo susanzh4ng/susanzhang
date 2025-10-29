@@ -9,6 +9,7 @@ import utdcapstonesBanner from './UTDCapstoneImages/UTD-Banner.png';
 import NavBar from '../../components/NavBar/NavBar'
 import BackToTop from '../../components/BackToTop/BackToTop';
 import "./UTDCapstone.css";
+import CTAButton from '../../components/CTAButton/CTAButton';
 
 const UTDCapstone = () => {
   return (
@@ -139,6 +140,9 @@ const UTDCapstone = () => {
                     <h4>Good things take time</h4>
                     <p>We had several meetings with the UT Dallas Web Services team to assess the progress of our website. During one of our latter meetings, I asked why they decided to display content differently than what was originally on the wireframes, and I found it was because the Web Services team was currently in the works of custom coding that functionality for a different project that would also be applicable here. Good things take time!</p>
                 </div>
+            </div>
+            <div className="d-flex justify-content-center">
+                <CTAButton text="Click here to view more of my work" url="" />
             </div>
             <BackToTop />
             <br></br>

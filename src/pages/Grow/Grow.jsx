@@ -32,6 +32,7 @@ import growBanner from './GrowImages/Grow-Banner.png';
 import NavBar from '../../components/NavBar/NavBar'
 import BackToTop from '../../components/BackToTop/BackToTop';
 import "./Grow.css";
+import CTAButton from '../../components/CTAButton/CTAButton';
 
 const Grow = () => {
   return (
@@ -492,6 +493,9 @@ const Grow = () => {
                     <h4>Research, research, research</h4>
                     <p>Grow with Google was also my first attempt at creating an addendum to a current line of products. Much research was required to ensure that the app resembled a Google product; no UI decision was made without referencing either Material Design or a Google product. Research on Google's current technology was also essential as many of my initial ideas failed because I didn't do enough reviewing; I had to omit Google Cardboard integration because it was discontinued back in 2021!</p>
                 </div>
+            </div>
+            <div className="d-flex justify-content-center">
+                <CTAButton text="Click here to view more of my UI/UX work" url="uiux" />
             </div>
             <BackToTop />
             <br></br>
