@@ -1,12 +1,13 @@
-.App {
-  font-family: 'Sen', sans-serif;
-  /* font-family: 'Times New Roman', Times, serif; */
-  height: 100vh;
-  color: #FFFFFF;
-  padding: 0;
-  margin: 0;
+.card {
+  padding: 2em;
 }
-/*body::-webkit-scrollbar {hiding scrollbar
-  width: 0;
+
+.dark-mode {
+  background-color: #0B0B23;
+  color: #FFF;
 }
-*/
+
+.light-mode {
+  background-color: #F3F3F4;
+  color: #0B0B23;
+}

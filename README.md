@@ -1,7 +1,16 @@
-# Susan Zhang's Portfolio
+# React + Vite
 
-View Susan Zhang's UI/UX, marketing, and full-stack web development work in [her portfolio website](http://susanzh4ng.github.io/susanzhang/)!
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Susan Zhang is a Computer Science and Experience Design student based in Dallas-Fort Worth, TX. Currently, she is a Designer and Corporate Relations Assistant for UTDesign — UT Dallas's engineering and computer science senior capstone program — where she designs print media, graphics, and websites for students and C-suite members alike.
+Currently, two official plugins are available:
 
-Her story starts with a virtual web development course she took back in high school. Vanilla JavaScript and HTML were enough for her to code a crude website, enough for functionality, but it was CSS that truly enticed her. Web design was the first time she was exposed to the intersection between computer science and art. Now, the principles of design, from having art as a first love, pour out in the form of code. She spaces out elements with Bootstrap components and margins by the pixel, choose color palettes that pass contrast checkers, and orient texts and images through display settings and padding. She does this in an attempt to make a sliver of the Internet her own.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
