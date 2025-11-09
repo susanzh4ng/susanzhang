@@ -10,7 +10,7 @@ const Footer = () => {
   const handleClick = (e) => {
     e.preventDefault();
     setBouncing(true);
-    navigate('/');
+    navigate('/susanzhang/');
         setTimeout(() => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
         }, 0);

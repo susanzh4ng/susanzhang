@@ -8,7 +8,7 @@ export default function Nav() {
   const navLinks = [
     //{ label: 'Work',  href: '/work' },
     //{ label: 'Play',  href: '/play' },
-    { label: 'About', href: '/about' },
+    { label: 'About', href: '/susanzhang/about' },
     { label: 'Resume', href: 'https://docs.google.com/document/d/1JCxSkpRFRojJKhgMhCiSdJLUzwTu3fvaJTfwFdsCL_0/edit?usp=sharing', external: true },
   ];
 
@@ -16,7 +16,7 @@ export default function Nav() {
     <header className="fixed top-3 left-3 right-3 z-50">
       <nav className="mx-auto flex h-16 items-center justify-between rounded-[20px] bg-white/70 px-6 backdrop-blur md:px-8">
         
-        <Link to="/" className="flex h-8 items-center">
+        <Link to="/susanzhang/" className="flex h-8 items-center">
           <img
             src="/susanzhang-black-nostroke.svg"
             alt="Susan Zhang"

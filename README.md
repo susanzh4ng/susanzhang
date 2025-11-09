@@ -1,4 +1,4 @@
-#Susan Zhang's Portfolio
+# Susan Zhang's Portfolio
 
 View Susan Zhang's UI/UX, marketing, and full-stack web development work in [her portfolio website](https://susanzh4ng.github.io/susanzhang/)!
 

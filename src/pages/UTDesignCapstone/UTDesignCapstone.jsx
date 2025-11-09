@@ -26,7 +26,7 @@ const UTDesignCapstone = () => {
         <Nav/>
 
         <div className="mt-[6rem] min-h-screen flex w-4/5 flex-col items-start justify-center gap-[24px] mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
                 <div>
                     <h1 className="text-[45px] italic font-normal leading-normal font-['Times_New_Roman']">UTDesign® Capstone</h1>
                     <b className="italic font-bold text-[20px] font-['Times_New_Roman']">Redesigning UTDesign® Capstone's websites</b>
