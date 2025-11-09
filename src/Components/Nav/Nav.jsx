@@ -1,4 +1,3 @@
-// src/Components/Nav/Nav.jsx
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowUpRight, Menu, X } from 'lucide-react';

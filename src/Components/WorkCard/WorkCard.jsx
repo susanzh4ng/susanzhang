@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 function WorkCard(props){
     const navigate = useNavigate();
     function handleClick() {
-        navigate(`/susanzhang/work/${props.url}`);
+        navigate(`/susanzhang/work/${props.url}#${props.urlid}`);
         setTimeout(() => {
             const target = document.getElementById(`${props.urlid}`);
             if (target) {
