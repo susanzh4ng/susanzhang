@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowUpRight, Menu, X } from 'lucide-react';
+import susanzhangblacknostroke from '../../assets/susanzhang-black-nostroke.svg';
+
 
 export default function Nav() {
   const [open, setOpen] = useState(false);
@@ -18,7 +20,7 @@ export default function Nav() {
         
         <Link to="/susanzhang/" className="flex h-8 items-center">
           <img
-            src="/susanzhang-black-nostroke.svg"
+            src={susanzhangblacknostroke}
             alt="Susan Zhang"
             className="h-8 w-auto"
           />

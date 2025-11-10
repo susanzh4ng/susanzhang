@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom'
 import { FaLinkedin } from "react-icons/fa";
 import { Mail } from 'lucide-react';
+import susanzhangblacknostroke from '../../assets/susanzhang-black-nostroke.svg';
 
 const LightFooter = () => {
   const navigate = useNavigate();
@@ -48,7 +49,7 @@ const LightFooter = () => {
           className={`h-8 block ${bouncing ? 'animate-bounce' : ''}`}
         >
           <img
-            src="/susanzhang-black-nostroke.svg"
+            src={susanzhangblacknostroke}
             alt="Susan Zhang"
             className="h-8 w-auto"
           />
