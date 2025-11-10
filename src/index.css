@@ -57,15 +57,6 @@ html, body, #root {
   --sidebar-ring: oklch(0.704 0.04 256.788);
 }
 
-a {
-  font-weight: 500;
-
-  text-decoration: inherit;
-}
-a:hover {
-
-}
-
 body {
   margin: 0;
   display: flex;
@@ -93,12 +84,6 @@ button {
   font-family: inherit;
   cursor: pointer;
   transition: border-color 0.25s;
-}
-button:hover {
-
-}
-button:focus,
-button:focus-visible {
 }
 
 @theme inline {
