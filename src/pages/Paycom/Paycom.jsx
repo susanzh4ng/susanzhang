@@ -81,15 +81,15 @@ const Paycom = () => {
                     <div className="flex flex-col md:flex-row gap-6">
                         <div className="p-6 rounded-[20px] border border-[#858591]">
                             <p className='text-[18px]'>Understanding the different modules put her in a strategic position to provide a lot of support to the others as they worked through solutions and were able to rely on her for some of this information. Susan encompasses the skills needed to be a talented product designer.</p>
-                            <p className="w-full text-right mt-3 text-[18px] text-[#0B0B23] italic font-bold font-['Times_New_Roman']">— Product Design Internship Program Manager✮</p>
+                            <p className="w-full text-right mt-3 text-[18px] text-[#0B0B23] italic font-bold font-['Times_New_Roman']">— Product Design Internship Program Manager ✮</p>
                         </div>
                         <div className="p-6 rounded-[20px] border border-[#858591]">
                             <p className='text-[18px]'>This dashboard would help with the reporting I have to manually separate each week.</p>
-                            <p className="w-full text-right mt-3 text-[18px] text-[#0B0B23] italic font-bold font-['Times_New_Roman']">— Supervisor of Talent Acquisition꩜</p>
+                            <p className="w-full text-right mt-3 text-[18px] text-[#0B0B23] italic font-bold font-['Times_New_Roman']">— Supervisor of Talent Acquisition ꩜</p>
                         </div>
                         <div className="p-6 rounded-[20px] border border-[#858591]">
-                            <p className='text-[18px]'>It’s a one-stop-shop for us, instead of having so many other windows open … I'm excited to get this thing going!</p>
-                            <p className="w-full text-right mt-3 text-[18px] text-[#0B0B23] italic font-bold font-['Times_New_Roman']">— Pre-Employment Specialist❀</p>
+                            <p className='text-[18px]'>It's a one-stop-shop for us, instead of having so many other windows open … I'm excited to get this thing going!</p>
+                            <p className="w-full text-right mt-3 text-[18px] text-[#0B0B23] italic font-bold font-['Times_New_Roman']">— Pre-Employment Specialist ❀</p>
                         </div>
                     </div>
                 </div>
