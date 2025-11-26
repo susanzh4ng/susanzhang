@@ -11,11 +11,11 @@ export default function Nav() {
     //{ label: 'Work',  href: '/susanzhang/work' },
     //{ label: 'Play',  href: '/susanzhang/play' },
     { label: 'About', href: '/susanzhang/about' },
-    { label: 'Resume', href: 'https://docs.google.com/document/d/1JCxSkpRFRojJKhgMhCiSdJLUzwTu3fvaJTfwFdsCL_0/edit?usp=sharing', external: true },
+    { label: 'Resume', href: 'https://docs.google.com/document/d/1MMIm26kh750q5k7Q22xuDxs9Vu3Ps-DWHIBZgAQ0a4I/edit?usp=sharing', external: true },
   ];
 
   return (
-    <header className="fixed top-3 left-3 right-3 z-50">
+    <header className="text-[#0B0B23] fixed top-3 left-3 right-3 z-50">
       <nav className="mx-auto flex h-16 items-center justify-between rounded-[20px] bg-white/70 px-6 backdrop-blur md:px-8">
         
         <Link to="/susanzhang/" className="flex h-8 items-center">

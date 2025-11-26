@@ -18,7 +18,7 @@ const LightFooter = () => {
   };
 
   return (
-    <footer className="w-full text-[0B0B23] mt-16 px-6 py-6">
+    <footer className="w-full text-[#0B0B23] mt-16 px-6 py-6">
       <div className="mx-auto flex h-16 flex items-center justify-between">
         <div className="flex gap-6 text-sm">
             <span className="inline-flex items-center gap-[8px]">

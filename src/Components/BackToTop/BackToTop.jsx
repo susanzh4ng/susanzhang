@@ -11,7 +11,7 @@ const BackToTop = () => {
     }
 
   return (
-    <div className="BackToTop w-fit mx-auto px-6 py-3 rounded-[50px] border-2 border-[#858591] bg-[#CECED3] hover:cursor-pointer" onClick={scrollToTop}>
+    <div className="BackToTop text-[#0B0B23] w-fit mx-auto px-6 py-3 rounded-[50px] border-2 border-[#858591] bg-[#CECED3] hover:cursor-pointer" onClick={scrollToTop}>
         <span className="inline-flex items-center gap-[6px]">
             <h3 className="text-[27px] italic font-normal leading-normal font-['Times_New_Roman']">Back to top</h3>
             <CornerRightUp style={{ color: '#0B0B23' }} size={24} />
