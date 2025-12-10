@@ -51,8 +51,10 @@ export default function Landing() {
             
             <div className="max-w-5xl mx-auto px-6 py-12">
                 <h1 className="text-white text-[36px] md:text-[40px] lg:text-[45px] italic font-normal leading-normal font-['Times_New_Roman']">⋆｡‧˚Selected works˚‧｡⋆</h1>
-                {work.map((w) => (
-                <WorkCard key={w.id} {...w} />
+                {work
+                    .filter((w) => w.selectedWorks)
+                    .map((w) => (
+                        <WorkCard key={w.id} {...w} />
                 ))}
             </div>
             <Footer />

@@ -8,7 +8,7 @@ export default function Nav() {
   const [open, setOpen] = useState(false);
 
   const navLinks = [
-    //{ label: 'Work',  href: '/susanzhang/work' },
+    { label: 'Work',  href: '/susanzhang/work' },
     //{ label: 'Play',  href: '/susanzhang/play' },
     { label: 'About', href: '/susanzhang/about' },
     { label: 'Resume', href: 'https://docs.google.com/document/d/1MMIm26kh750q5k7Q22xuDxs9Vu3Ps-DWHIBZgAQ0a4I/edit?usp=sharing', external: true },
