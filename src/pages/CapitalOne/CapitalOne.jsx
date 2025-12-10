@@ -229,7 +229,7 @@ const CapitalOne = () => {
                 <div>
                     <b className="italic text-[#858591] font-normal text-[20px] font-['Times_New_Roman']">Iteration</b>
                     <h2 className="text-[36px] text-[#0B0B23] italic font-normal leading-normal font-['Times_New_Roman']">Final prototype</h2>
-                    <iframe className='w-3/4 aspect-[8/5] rounded-lg mx-auto mt-[1rem]' src="https://embed.figma.com/proto/vBFWSGpHD9buWAmoUhHFqx/C1-Wireframes-%E3%83%BC-Microsoft-Fluent-2-Web?node-id=12170-28594&scaling=scale-down&content-scaling=fixed&page-id=12042%3A15302&starting-point-node-id=12170%3A28594&show-proto-sidebar=1&embed-host=share"></iframe>
+                    <iframe className='w-full aspect-[8/5] rounded-lg mx-auto mt-[1rem]' src="https://embed.figma.com/proto/vBFWSGpHD9buWAmoUhHFqx/C1-Wireframes-%E3%83%BC-Microsoft-Fluent-2-Web?node-id=12170-28594&scaling=scale-down&content-scaling=fixed&page-id=12042%3A15302&starting-point-node-id=12170%3A28594&show-proto-sidebar=1&embed-host=share"></iframe>
                 </div>
                 <div>
                     <b className="italic text-[#858591] font-normal text-[20px] font-['Times_New_Roman']">Iteration</b>
