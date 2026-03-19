@@ -246,7 +246,7 @@ const CapitalOne = () => {
                         </div>
                         <div className='mt-[1rem] p-6 rounded-[20px] border border-[#858591]'>
                             <h3 className="text-[27px] text-[#0B0B23] italic font-normal leading-normal font-['Times_New_Roman'] mb-[0.5rem]">Converging and diverging solutions⋆.*･</h3>
-                            <p>Capital One's Auto Finance Team tasked this design challenge to 5 teams within UTD’s Applied Experience Design Program. It was refreshing to see each team's approach to it in our biweekly sprint presentations!</p>
+                            <p>Capital One's Auto Finance Team tasked this design challenge to 5 teams within UTD's Applied Experience Design Program. It was refreshing to see each team's approach to it in our biweekly sprint presentations!</p>
                         </div>
                         <div className='mt-[1rem] p-6 rounded-[20px] border border-[#858591]'>
                             <h3 className="text-[27px] text-[#0B0B23] italic font-normal leading-normal font-['Times_New_Roman'] mb-[0.5rem]">Leadership & organization˙⋆✮</h3>
