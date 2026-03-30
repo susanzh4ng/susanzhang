@@ -23,7 +23,7 @@ const work = [
         url: "orgportal",
         urlid: "orgportal",
         coverImg: orgPortalCover,
-        title: "OrgPortal",
+        title: "Org Portal",
         description: "UT Dallas's student organization portal, built with love by a UT Dallas student organization",
     },
     {

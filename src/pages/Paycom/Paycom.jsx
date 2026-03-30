@@ -237,7 +237,7 @@ const Paycom = () => {
                                     <p>I delved into the prior modules to determine which candidate actions are necessary in the onboarding stages, for more <b className='text-[#0B0B23]'>clarity and streamlined flow for our users</b>. Each candidate's actions are designed to show appropriate options based on where the candidate is in the onboarding process.</p>
                                     <img src={ActionsImg} alt="High-fidelity candidate actions" className='w-1/2 mx-auto' />
                 
-                                    <h3 className="mt-[2rem] text-[27px] text-[#0B0B23] italic font-normal leading-normal font-['Times_New_Roman']">Candidate errorss</h3>
+                                    <h3 className="mt-[2rem] text-[27px] text-[#0B0B23] italic font-normal leading-normal font-['Times_New_Roman']">Candidate errors</h3>
                                     <p>Before, errors and alerts associated with a candidate were indicated as a dedicated step within an onboarding stage, making it both less apparent that a candidate was in need of service and more ambiguous as to why the candidate was bottle-necked. Alongside my teammate, I ensured the selected <b className='text-[#0B0B23]'>errors were desired by users and complemented the existing system</b>.</p>
                                     <img src={ErrorsImg} alt="High-fidelity candidate actions" className='w-3/4 mx-auto' />
                                 </div>
